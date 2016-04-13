@@ -111,6 +111,55 @@ and open the template in the editor.
                 ?>
             </td>
         </tr>
+        <tr>
+                    <td>La diagonal</td>
+                    <td>
+                        <?php
+                            $n=  rand(3, 20);
+                            echo $n;
+                            $alto=10;
+                            $altopx=$alto."px";
+                            $ancho=10;
+                            $anchopx=$ancho."px";
+                            $borde=2;
+                            $bordepx=$borde."px";
+                            $colorSeleccionado="#000099";
+                            $colorBase="#ccc";
+                            
+                            
+                            $altoTotal=$alto*$n+($n*2)*$borde;
+                            $anchoTotal=$ancho*$n+($n*2)*$borde;
+                            $altoTotalpx=$altoTotal."px";
+                            $anchoTotalpx=$anchoTotal."px";
+                            
+                            $tabla="<div style='height:$altoTotalpx; 
+                                    width:$anchoTotalpx'>";
+                            for($i=0;$i<$n;$i++){
+                                for($j=0;$j<$n;$j++){
+                                    $color=$colorBase;
+                                    if($i==$j){
+                                        $color=$colorSeleccionado;
+                                    }
+                                 $tabla.="<div style='height:$altopx; 
+                                    width:$anchopx;float: left;
+                                    border:$bordepx solid #000;
+                                    background:$color;     '>";   
+                                 $tabla.="</div>";   
+                                }
+                            }
+                            $tabla.="</div>";
+                            
+                            echo $tabla;
+                        
+                        
+                        
+                        
+                        ?>
+                        
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
     </table>
     </tbody>
     </body>
