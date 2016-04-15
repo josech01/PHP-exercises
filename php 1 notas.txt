@@ -1,0 +1,21 @@
+code tags:
+<ht
+complete enter <html
+cerramos <html> complete windows--->enter
+	<html>enter</html>
+final-->   <html>
+	
+               </html>
+
+shortcuts:
+Ctrl+shift+abajo-->duplicate down
+mayus+shift+abajo -->move down
+ctrl+shift +R ---> Togle rectangle selection
+ctrl+space --> suggest completation
+
+
+pages:
+balsamiq  "change clock after 30 days"
+bootstrap lte : https://almsaeedstudio.com/
+
+

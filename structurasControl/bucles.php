@@ -149,11 +149,7 @@ and open the template in the editor.
                             }
                             $tabla.="</div>";
                             
-                            echo $tabla;
-                        
-                        
-                        
-                        
+                            echo $tabla;   
                         ?>
                         
                     </td>
