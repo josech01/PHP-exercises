@@ -1,0 +1,20 @@
+En php.ini
+==========
+1. habilitar extension    extension=php_openssl.dll
+
+SMTP=smtp.gmail.com
+smtp_port=587
+sendmail_from = micuaenta@gmail.com
+sendmail_path = "\"G:\xampp\sendmail\sendmail.exe\" -t"
+
+
+
+En sendmail.ini
+================
+smtp_server=smtp.gmail.com
+smtp_port=587
+error_logfile=error.log
+debug_logfile=debug.log
+auth_username=micuenta@gmail.com
+auth_password=miclave
+force_sender=micuenta@gmail.com
