@@ -18,6 +18,18 @@
             </thead>
             <tbody>
                 <tr>
+                    <td>1</td>
+                    <td>Suma</td>
+                    <td>
+                    <td>1</td>
+                    <td>Suma</td>
+                    <td><img src="imagenes/chica3.jpg" 
+                             style="height: 150px;"
+                             onclick="suma(4,5,6);"></td>
+                        
+                    </td>
+                </tr>
+                <tr>
                     <td>2</td>
                     <td>Multiplicacion</td>
                     <td>
@@ -30,15 +42,17 @@
                         <input id="num3" value="0" type="text">
                         
                     </td>
-                    <img src="imagenes/chica1.jpg" style="height: 300px;width: 500px;">
                 </tr>
                 <tr>
-                    <td>3</td>
+                     <td>3</td>
                     <td>Globales</td>
                     <td>
-                        <button onclick="acumulaA();">AcumulaA</button>
-                        <button onclick="function2();">Funcion2</button>
-                        <button onclick="function3();">Funcion3</button>
+                        <button onclick="acumulaA();">AcumulA</button>
+                        <button onclick="funcion2();">funcion2</button>
+                        <button onclick="funcion3();">funcion3</button>
+                        <button onclick="funcion4();">funcion4</button>
+                        
+                    </td>
                 </tr>
             </tbody>
         </table>
